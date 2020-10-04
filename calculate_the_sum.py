@@ -25,3 +25,6 @@ def calculate_the_average_of_numbers_in_a_list(list_of_numbers):
 
 def calculate_the_product(list_of_numbers):
     return numpy.prod(list_of_numbers)
+
+def print_number_to_standard_output(msg, number):
+    print(f"{msg}:{number}")
