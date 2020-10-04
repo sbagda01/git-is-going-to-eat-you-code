@@ -28,3 +28,7 @@ def calculate_the_product(list_of_numbers):
 
 def print_number_to_standard_output(msg, number):
     print(f"{msg}:{number}")
+
+
+def calculate_the_product_of_evens(list_of_numbers):
+    return calculate_the_product([n for n in list_of_numbers if not n % 2])
